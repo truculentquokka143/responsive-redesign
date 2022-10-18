@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body {
+    background-color: rgba(252, 250, 240, 0.833);
+    margin: 0;
+	padding: 0;
+	display: grid;
+    margin: 20px 100px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.section {
+    margin-bottom: 20px;
+
+}
+
+.section-overview {
+    margin-bottom: 10px;
+
+}
+
+.title {
+	font-size: 2em;
+    font-family: 'Yeseva One', cursive;
+	color: #bfc9f2;
+    text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-bottom: 2px;
+}
+
+hr {
+    border: 1px solid rgb(162, 144, 144);
+}
+
+h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 250%;
+    color: #bfc9f2;
+    text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: rgb(120, 103, 103);
+    text-align: left;
+    margin-top: 0px;
+}
+
+#obs {
+    padding-bottom: 30px;
+}
+
+#interface-description {
+    padding-bottom: 25px;
+}
+
+footer {
+	text-align: right;
+}
+
+#karmic-grounds {
+    max-width: 100%;
+    max-height: auto;
+}
+
+li {
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: rgb(120, 103, 103);
+}
+
+.acc-container {
+    display: flex;
+    gap: 70px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#acc-img {
+    max-width: 25%;
+    height: 100%;
+}
+
+#acc-text {
+    padding-bottom: 0px;
+}
+
+.l-comp {
+    display: flex;
+    justify-content: center;
+}
+
+#l-comp {
+    width: 50%;
+    height: auto;
+}
+
+.l-ipad-container, .l-phone-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+#l-ipad-1 {
+    width: 110%;
+    height: auto;
+}
+
+#l-ipad-2{
+    width: 110%;
+    height: auto;
+}
+
+#l-phone-1 {
+    width: 90%;
+    height: auto;
+}
+
+#l-phone-2{
+    width: 90%;
+    height: auto;
+}
+
+.h-container, .l-container {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+figcaption {
+    display: block;
+}
+
+.hifi-img {
+    width: 70%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.style-container {
+    display: flex;
+    justify-content: center;
+}
+
+#style-img {
+    width: 50%;
+    height: auto;    
+}
+
+#final-img {
+    margin-bottom: 100px;
+}
+
+.figma-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.figma{
+    width: 30%;
+}

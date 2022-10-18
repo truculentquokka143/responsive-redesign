@@ -1,0 +1,209 @@
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+
+    <body>
+        <div class="title">
+            <h1 class="title">Responsive Redesign</h1>
+         </div>
+         <div><hr></div>
+
+        <div class="section-overview">
+            <h2>Overview</h2>
+            <p>For this assignment, we analyzed and identified flaws in an 
+                existing interface.
+                We also created low-fidelity and high-fidelity prototypes
+                for various screen sizes and built a responsive website based 
+                on those prototypes.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Picking a Webpage</h2>
+            <p id="interface-description">
+                I picked the <a href="https://karmicgrounds.com">Karmic Grounds</a> website, which 
+                is a cute little coffee shop from my hometown. I chose to redesign the homepage
+                because I noticed that I couldn't access the menu anywhere on the page, and in my opinion,
+                the overall mood of the website did not align with the modern and clean image of the company.
+            </p>
+
+            <img id="karmic-grounds" src="../images/karmic-grounds.png" alt="Image of the karmic grounds website">
+        </div>
+
+        <div class="section">
+            <h2>Finding Problems</h2>
+            <p> I analyzed the usability of the web page using the criteria such as
+                usability (e.g., including efficiency), learnability, and memorability.
+            </p>
+                <ul>
+                    <li>Efficiency: To check out the menu, users must download 
+                        the Karmic Grounds app or select the order online option, which 
+                        takes them to a different website. This is inefficient because 
+                        a user can’t just go directly to the main website to check out 
+                        the menu and may get discouraged by the need to do extra steps 
+                        just to see what the shop offers. Once users know that they need 
+                        to leave the website to browse the menu, users will recognize that they
+                        don't even need to visit website anymore and favor using the app, which shows the 
+                        failure of the website.</li>
+
+                    <li>Learnability: The first time users encounter the website,
+                         they may not notice the menu icon located at the top left
+                          corner of the page. If they fail to notice it, they may 
+                          just think that the website is just one scrolling page,
+                           which makes it difficult and frustrating to jump to a 
+                           specific section. Also, there is no menu section, which 
+                           makes the basic task of viewing the menu impossible 
+                           unless they choose to download the Karmic Grounds app.</li>
+                    
+                    <li>Memorability: When users revisit the website after some time and want to view the menu,
+                        they will recognize immediately that the menu is not provided
+                        on the website and immediately leave.</li>
+                    
+                    <li>Satisfaction: The website’s background is black with an 
+                        intricate pattern, which makes reading the text a bit 
+                        difficult at times.
+                        Also there is a sticky header bar that stays as you scroll advertising 
+                        the Karmic Grounds app, which gives the impression that the 
+                        website is just a promotional page for the app and not a standalone website representing Karmic Grounds </li>
+                </ul> 
+                </p>
+        </div>
+
+        <div class="section">
+            <h2>Accessibility</h2>
+            <div class="acc-container">
+            <div>
+                <p id="acc-text"> I then used <a href="https://wave.webaim.org">WebAIM WAIVE</a> to detect possible accessibility problems.</p>
+                    <ul>
+                        <li>There are 11 images missing alternative text, which means that almost every image on the 
+                            website lacks text description that is crucial for users using a screen reader or for when 
+                            the image fails to load.
+                        </li>
+                        <li>There are 7 alerts about skipped headings or possible headings, 
+                            which means that the visual hierarchy is compromised and navigating is difficult.
+                        </li>
+                    </ul>
+                <p>I agree that the headings are not clearly distinguished. For instance, 
+                    for the experience section, the heading “The Experience” is the same size as 
+                    the body for the section, which is not ideal. The only distinguishing trait 
+                    between headers and the description is whether or not it is in caps or not.
+                </p>
+            </div>
+            <img id="acc-img" src="../images/accessibility-errors.png" alt="Image of the persona for a college professor">
+            </div>
+                   
+        </div>
+
+        <div class="section">
+            <h2>Usability Problems: Summary</h2>
+            <p>The current Karmic Grounds website seems like an advertisement to download the 
+                Karmic Grounds app, which has the menu, information about the rewards program, 
+                news and offers, and ordering options. The website simply isn’t on par with the app and 
+                doesn’t stand alone as its own application that customers can use to discover Karmic 
+                Ground’s products (specifically their menu items). There are also some underlying accessibility issues with the interface that should be fixed to 
+                make the experience enjoyable for all users.
+                </p>
+                <p>
+                Based on these concerns, my goal was to improve the design of the Karmic Grounds homepage 
+                so that it can stand on its own as a website representing the Karmic Grounds brand and all it has to offer.
+                </p>
+        </div>
+
+        <div class="section">
+            <h2>Low-fidelity Wireframing</h2>
+            <p>I created a total of 3 wireframes for the homepage screen, one for each of the screen sizes (mobile, tablet, desktop). </p>
+            <div>
+            <figure>
+                <div class="l-container">
+                <img id="l-comp" src="../images/lowfi-comp.jpg" alt="Lowfi computer image">
+                <figcaption id="fcap">Desktop low-fidelity prototype</figcaption>                
+                </div>
+            </figure>
+            </div>
+
+            <div class="l-ipad-container">
+                <figure>
+                    <div class="l-container">
+                    <img id="l-ipad-1" src="../images/lowfi-ipad-1.jpg" alt="Lowfi iPad image 1">                
+                    <figcaption>Tablet low-fidelity prototype, top of page</figcaption>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="l-container">
+                    <img id="l-ipad-2" src="../images/lowfi-ipad-2.jpg" alt="Lowfi iPad image 2">                
+                    <figcaption>Tablet low-fidelity prototype, bottom of page</figcaption>
+                    </div>
+                </figure>
+            </div>
+
+            <div class="l-phone-container">
+                <figure>
+                    <div class="l-container">
+                    <img id="l-iphone2-1" src="../images/lowfi-phone-1.jpg" alt="Lowfi iPhone image 1">                
+                    <figcaption>Mobile low-fidelity prototype, top of page</figcaption>
+                    </div>
+                </figure>
+                <figure>
+                    <div class="l-container">
+                    <img id="l-iphone-2" src="../images/lowfi-phone-2.jpg" alt="Lowfi iPhone image 2">                
+                    <figcaption>Mobile low-fidelity prototype, bottom of page</figcaption>
+                    </div>
+                </figure>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Visual Design Style Guide</h2>
+            <p>Before starting my hi-fi prototypes, I created a visual design style guide that displays the main colors, 
+                typography, and reusable components’ different states (buttons on hover, click, etc.).</p>
+                <div class="style-container">
+                <img id="style-img" src="../images/style-guide.jpg" alt="Style guide">  
+                </div>
+        </div>
+
+        <div class="section">
+            <h2>High-fidelity Wireframing</h2>
+            <p>I used Figma to create a 
+                total of 3 high-fidelity prototypes for the homepage, one for 
+                each of the screen sizes (mobile, tablet, desktop).</p>
+            <div class="figma-container">
+                <iframe class="figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FW9DqGXFu5nYcMGmojk2k1f%2FHi-fi-Desktop-Prototype%3Fnode-id%3D1%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1" allowfullscreen></iframe>
+                <iframe class="figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FY9Yh6fl290nHn7MAtsUXjt%2FHi-fi-Tablet-Prototype%3Fnode-id%3D16%253A241%26scaling%3Dscale-down%26page-id%3D2%253A3" allowfullscreen></iframe>
+                <iframe class="figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FuKrSlQBsBla95dBZwO0enL%2FHi-fi-Mobile-Prototype%3Fnode-id%3D16%253A741%26scaling%3Dscale-down%26page-id%3D11%253A124" allowfullscreen></iframe>            
+            </div>
+            <figure>
+                <div class="h-container">
+                <img class="hifi-img" src="../images/hifi-comp.jpg" alt="Hifi computer img">  
+                <figcaption>Desktop high-fidelity prototype, 2880x1800 px</figcaption>
+                </div>              
+            </figure>
+            <figure>
+                <div class="h-container">
+                <img class="hifi-img" src="../images/hifi-ipad.jpg" alt="Hifi iPad img">  
+                <figcaption>Tablet high-fidelity prototype, 768x1024px</figcaption>
+                </div>              
+            </figure>
+            <figure>
+                <div class="h-container">
+                <img class="hifi-img" src="../images/hifi-phone.jpg" alt="Hifi iPhone img">
+                <figcaption>Mobile high-fidelity prototype, 375x667px</figcaption>
+                </div>                
+            </figure>
+
+        </div>
+
+        <div class="section">
+            <h2>Final Redesign</h2>
+            <p>Finally, using the high-fidelity prototypes, I created 
+                the <a href="https://truculentquokka143.github.io/karmic-grounds/">redesigned homepage</a> 
+                using HTML and CSS!</p>
+            <img id="final-img" src="../images/new-website.png" alt="final website image">
+        </div>
+
+
+        <footer>Made with <font color="hotpink">&hearts;</font> in Providence</footer>
+    </body>
+
+</html>
